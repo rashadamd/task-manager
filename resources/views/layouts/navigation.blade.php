@@ -10,7 +10,7 @@
                     </a>
                 </div>
 
-                <!-- Navigation Links -->
+                <!-- Navigation Link -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
  
                     <x-nav-link :href="route('tasks.index')" :active="request()->routeIs('tasks.*')">
@@ -36,7 +36,6 @@
                     </x-slot>
 
                     <x-slot name="content">
-      
 
                         <!-- Authentication -->
                         <form method="POST" action="{{ route('logout') }}">
